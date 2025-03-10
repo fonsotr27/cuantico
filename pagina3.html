@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computación Cuántica - Futuro</title>
-    <link rel="stylesheet" href="resources/style3.css"> <!-- Enlazamos el CSS -->
-    <script defer src="resources/script.js"></script> <!-- JavaScript -->
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>El Futuro de la Computación Cuántica</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pagina2.html">Página 2</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Sección de resumen interactivo -->
-   
-   
+<body class="bg-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#footer">QuantumTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Finanzas, IA y Seguridad</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Sección del futuro de la computación cuántica -->
-    <section class="futuro">
-        <h2>¿Hasta dónde podemos llegar?</h2>
-        <p> La computación cuántica está destinada a transformar el mundo, superando los límites de la informática tradicional y abriendo posibilidades antes impensables. En la exploración del cosmos, permitirá simulaciones precisas del universo, ayudando a comprender fenómenos como la materia y la energía oscura, mientras que en inteligencia artificial impulsará redes neuronales cuánticas capaces de procesar datos y tomar decisiones en tiempo real con una eficiencia sin precedentes. Su impacto en la sostenibilidad energética será clave en el desarrollo de materiales avanzados para baterías más eficientes y en la optimización de la fusión nuclear, allanando el camino hacia una fuente de energía limpia e ilimitada. En el ámbito médico, revolucionará el diseño de fármacos y tratamientos personalizados mediante el modelado de moléculas y proteínas, ofreciendo nuevas esperanzas contra enfermedades actualmente incurables. Además, en seguridad digital, la criptografía cuántica marcará un antes y un después en la protección de datos, garantizando comunicaciones inviolables en un mundo donde la ciberseguridad es cada vez más crucial. Con estas innovaciones, la computación cuántica no solo resolverá problemas que hoy parecen imposibles, sino que definirá el futuro de la humanidad, cambiando la manera en que interactuamos con la tecnología y con el universo mismo. como en los siguientes campos:</p>
+    <section class="container my-5">
+        <h2 class="text-center">¿Hasta dónde podemos llegar?</h2>
+        <p class="text-justify">La computación cuántica está destinada a transformar el mundo, superando los límites de la informática tradicional y abriendo posibilidades antes impensables...</p>
         <ul>
             <li><strong>Exploración del cosmos:</strong> Simulaciones cuánticas de la física del universo nos permitirán entender mejor el espacio.</li>
             <li><strong>Inteligencia artificial avanzada:</strong> Modelos predictivos capaces de resolver problemas en tiempo real.</li>
@@ -35,34 +38,59 @@
         </ul>
     </section>
 
-    <!-- Sección de imágenes con espacio para información -->
-    <section class="imagenes-futuro">
-        <div class="bloque-imagen">
-            <img src="resources/img/Diseno-sin-titulo-29-20.webp" alt="Computación Cuántica en la Ciencia">
-            <p>No es un sólido, un líquido ni un gas. Microsoft asegura haber logrado algo que muchos científicos creían imposible: crear una nueva fase de la materia y usarla para desarrollar un revolucionario "cúbit topológico". Si esta tecnología cumple su promesa, podría cambiar radicalmente la informática, la inteligencia artificial y la seguridad global. Pero, ¿realmente lo han conseguido?</p>
+    <!-- Sección de imágenes -->
+    <section class="container my-5 text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="resources/img/Diseno-sin-titulo-29-20.webp" class="img-fluid rounded" alt="Computación Cuántica en la Ciencia">
+                <p>No es un sólido, un líquido ni un gas... Si esta tecnología cumple su promesa, podría cambiar radicalmente la informática.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Las redes neuronales cuánticas revolucionarán la inteligencia artificial, permitiendo modelos de aprendizaje mucho más eficientes y rápidos.</p>
+                <img src="resources/img/1711540958759.jpg" class="img-fluid rounded" alt="Avances en IA con Computación Cuántica">
+            </div>
         </div>
-        <div class="bloque-imagen">
-            <p>Las redes neuronales cuánticas revolucionarán la inteligencia artificial, permitiendo modelos de aprendizaje mucho más eficientes y rápidos.</p>
-            <img src="resources/img/1711540958759.jpg" alt="Avances en IA con Computación Cuántica">
+    </section>
+
+    <!-- Sección de Peligros de los Chips Cuánticos -->
+    <section class="container my-5">
+        <h2 class="text-center">Peligros de los Chips Cuánticos</h2>
+        <p>Uno de los mayores desafíos que enfrenta la ciberseguridad con la llegada de la computación cuántica es la criptografía. Actualmente, la seguridad de nuestras comunicaciones y transacciones en línea se basa en algoritmos criptográficos que serían vulnerables ante una computadora cuántica lo suficientemente poderosa. Imagina un atacante que puede probar todas las combinaciones posibles de una contraseña simultáneamente en segundos. La resistencia de nuestras contraseñas actuales se vería comprometida.</p>
+        
+        <h3>El día Q es cuando se construye un ordenador cuántico tan potente que podría romper los sistemas públicos de encriptación. ¿Hasta qué punto debemos preocuparnos?</h3>
+        <p>Podría ser dentro de unos años, o dentro de 10 o más. Pero científicos, matemáticos y gobiernos no están esperando de brazos cruzados a que se produzca la amenaza cuántica.
+
+            El día Q es cuando se construye un ordenador cuántico tan potente que podría romper los sistemas públicos de encriptación que protegen nuestras conversaciones en línea, cuentas bancarias y la infraestructura más vital, causando estragos en gobiernos y empresas.
+            
+            El modo en que se produciría este cataclismo digital se reduce a simples cálculos matemáticos.</p>
+        
+        <div class="text-center">
+            <img src="resources/img/images (5).jpg" class="img-fluid rounded" alt="Peligros de los Chips Cuánticos">
         </div>
     </section>
 
     <!-- Formulario de opinión -->
-    <section class="formulario">
-        <h2>Comparte tu opinión</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="opinion">¿Qué opinas sobre la computación cuántica?</label>
-            <textarea id="opinion" name="opinion" required></textarea>
-            
-            <button type="submit">Enviar</button>
+    <section class="container my-5">
+        <h2 class="text-center">Comparte tu opinión</h2>
+        <form class="p-4 border rounded bg-white">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="opinion" class="form-label">¿Qué opinas sobre la computación cuántica?</label>
+                <textarea id="opinion" name="opinion" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Computación Cuántica</p>
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Computación Cuántica - QuantumTech</p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
